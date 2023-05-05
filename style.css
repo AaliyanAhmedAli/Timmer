@@ -1,0 +1,29 @@
+body{
+  background-color: #fdcb6e;
+}
+h1 {
+  text-align: center;
+  font-size: 48px;
+  margin-top: 50px;
+}
+
+#clock {
+  text-align: center;
+  font-size: 72px;
+  margin-top: 50px;
+}
+
+input[type="time"] {
+  font-size: 24px;
+}
+
+button {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+#stop-button {
+  display: none;
+}
+
+  

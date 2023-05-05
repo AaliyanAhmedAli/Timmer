@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+      
+        <h1>Alarm Clock</h1>
+        <div id="clock"></div>
+        <center>
+
+            <div>
+                <label for="alarm-time">Set alarm:</label>
+                <input type="time" id="alarm-time">
+                <button onclick="setAlarm()">Set</button>
+            </div>
+            <button onclick="stopAlarm()" id="stop-button">Stop Alarm</button>
+            <audio src="alarm-sound.mp3" id="alarm-sound"></audio>
+            <img src="./wall-clock-icon-512x512.png" alt="" width="250">
+        </center>
+      
+
+<style>
+    img{
+        margin-top: 5%;
+    }
+</style>
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
